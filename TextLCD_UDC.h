@@ -24,6 +24,12 @@
  */
 #ifndef MBED_TEXTLCDUDC_H
 #define MBED_TEXTLCDUDC_H
+#ifndef TEXTLCD_UDC_H
+#define TEXTLCD_UDC_H
+
+extern const char udc_Cursor[]; // Declaración del nuevo carácter
+
+#endif
 
 #include "TextLCD_Config.h"
 
